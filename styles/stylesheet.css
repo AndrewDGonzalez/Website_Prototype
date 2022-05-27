@@ -13,11 +13,13 @@
 body{
     /* background-color: black; */
 
+
     /* background-image: url(../images/wireframe_background.png); */
     background-image: url(../images/wireframe_background_darken.png);
     background-color: black;
     background-blend-mode: screen;
     background-size: 50%;
+    min-width: 400px;
     /* background: linear-gradient((rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
 
 
@@ -92,15 +94,18 @@ main{
 
 
 }
+main#album{
+    max-width: 1800px;
+}
 main#album img{
     /* width: 300px; */
     margin: 1em;
 }
-main#album img:hover{
+/* main#album img:hover{
     box-shadow: 0 0 20px black;
-    border: 5px solid #777777;
+    border: 1px solid #777777;
     border-radius: 6px;
-}
+} */
 main#album div{
     float: left;
 }
@@ -197,6 +202,35 @@ article#contact_info_article li{
     color: black;
     font-family: 'Quicksand',sans-serif;
 }
+
+div#animated_video_main article{
+    padding: 1em 2em;
+    font-family: 'Quicksand',sans-serif;
+}
+div#animated_video_main article h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration:underline;
+}
+div#animated_video_main article h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+div#animated_video_main article p{
+    font-size: 20px;
+    padding: 20px 0;
+    text-indent: 30px;
+}
+
+
+main video{
+    width:100%;
+    padding: 2em;
+
+    background-color: #777777;
+}
+
+
 
 
 

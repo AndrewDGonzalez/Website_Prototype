@@ -6,12 +6,31 @@
   <title>Main :: Page Portfolio :: Website Skeleton</title>
   <!-- Andrew Gonzalez -->
   <link rel="stylesheet" href="styles/stylesheet.css">
-  <link rel="reset" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel ="stylesheet" href = "css/lightbox.css">
+  <link rel ="stylesheet" href = "css/mygalleries.css">
 </head>
+
+
+<header id = "top_banner">
+    <div id="name_header">
+        <h1>Andrew Gonzalez</h1>
+        <h2>WireFrame Prime_Movers</h2>
+    </div>
+    <img src="images/V3_norm_transparent_crop_square.png" alt="logo" title="WireFrame Logo" class="">
+    <nav id="navigation_tab">
+        <ol>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="animated_vids.html">Animated Videos</a></li>
+            <li><a href="contact_info.html">Contact Information</a></li>
+        </ol>
+    </nav>
+</header>
 
 <body id ="main_page_body">
 
-<header id = "top_banner">
+<!-- <header id = "top_banner">
     <div id="name_header">
         <h1>Andrew Gonzalez</h1>
         <h2>WireFrame Prime_Movers</h2>
@@ -25,7 +44,7 @@
             <li><a href="contact_info.html">Contact Information</a></li>
         </ol>
     </nav>
-</header>
+</header> -->
 
 <!-- <hr> -->
 
@@ -33,12 +52,70 @@
 
     <!-- Make these images tags links to their full sized counter parts or with information on the piece -->
 
+    <ul class = "gallery two">
+        <li class ="">
+            <img src = "images/thumbnails/brick_wall_thumb.png" alt ="BrickWall" title = "Brick Wall" class = "">
+            <p class="overlay"><a href="images/brick_wall.png" data-lightbox="art_works">Brick Wall</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/LowPolyRoom_thumb.png" alt ="LowPolyRoom" title = "My Room" class = "">
+            <p class="overlay"><a href="images/LowPolyRoom(Improved).png" data-lightbox="art_works">Low Poly Room</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/LakeHouseThumb_small.png" alt ="LakeHouseThumb" title = "Minecraft Lake" class = "">
+            <p class="overlay"><a href="images/LakeHouseThumb.png" data-lightbox="art_works">Minecraft Lake House</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/LakeHouseMorning_thumb.png" alt ="MC Cabin" title = "Cabin" class = "">
+            <p class="overlay"><a href="images/LakeHouseMorning.png" data-lightbox="art_works">Minecraft Front Cabin</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/Fury_Mechwarrior_thumb.png" alt ="Mechs" title = "MechWarrior" class = "">
+            <p class="overlay"><a href="images/Fury_Mechwarrior.png" data-lightbox="art_works">Mechwarrior Animation Screen Shot</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/LoyPolyMountain_thumb.png" alt ="Mountain" title = "Low Poly Mountain" class = "">
+            <p class="overlay"><a href="images/LowPolyRoom.png" data-lightbox="art_works">Low Poly Mountain</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/SilverCrow_thumb.jpg" alt ="SilverCrow" title = "Silver Crow Art" class = "">
+            <p class="overlay"><a href="images/SilverCrow.jpg" data-lightbox="art_works">Pastel Silver Crow</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/home_wip_thumb.png" alt ="WIP House" title = "Abandoned Home" class = "">
+            <p class="overlay"><a href="images/home_wip.png" data-lightbox="art_works">Abandoned House (WIP)</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/Skull.1_thumb.jpg" alt ="Skull1" title = "FrontSkull" class = "">
+            <p class="overlay"><a href="images/Skull.1.jpg" data-lightbox="art_works">White Charcoal Skull</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/skull_whitespace_thumb.jpg" alt ="Skull2" title = "WhiteSpaceSkull" class = "">
+            <p class="overlay"><a href="images/skull_whitespace.jpg" data-lightbox="art_works">Whitespace Charcoal Skull</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/Wood Cup Render_thumb.png" alt ="WoodenCup" title = "Wood Cup" class = "">
+            <p class="overlay"><a href="images/Wood Cup Render.png" data-lightbox="art_works">Wooden Cup Render</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/BarrothPiece_Grunt_thumb.jpg" alt ="Barroth" title = "Barroth of the Waste" class = "">
+            <p class="overlay"><a href="images/BarrothPiece_Grunt.jpg" data-lightbox="art_works">Oil Pastel MonsterHunter</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/farmhouse_wip_thumb.png" alt ="Farm" title = "Farm House" class = "">
+            <p class="overlay"><a href="images/farmhouse_wip.png" data-lightbox="art_works">Farm House (WIP)</a></p>
+        </li>
+        <li class ="">
+            <img src = "images/thumbnails/tree_test_thumb.png" alt ="Tree" title = "Full Tree" class = "">
+            <p class="overlay"><a href="images/tree_test.png" data-lightbox="art_works">Full Tree Test</a></p>
+        </li>
+    </ul>
 
-    <a href=""><img src = "images/brick_wall.png" alt = "Brick Wall Render" title = "Brick Wall Render" class = "fifty"></a>
 
+
+    <!-- <a href=""><img src = "images/brick_wall.png" alt = "Brick Wall Render" title = "Brick Wall Render" class = "fifty"></a>
 
     <img src = "images/LowPolyRuin.png" alt ="Low Poly Ruin" title = "Low Poly Ruin" class = "fifty">
-
 
     <img src = "images/field_render_compressed.png" alt ="Field Render" title = "Field Render" class = "full">
 
@@ -64,7 +141,7 @@
 
     <img src = "images/skull_whitespace.JPG" alt ="White Space Skull" title = "White Space Skull" class = "fifty">
 
-    <img src = "images/BarrothPiece_Grunt.JPG" alt ="Barroth" title = "Barroth of The Wastes" class = "full">
+    <img src = "images/BarrothPiece_Grunt.JPG" alt ="Barroth" title = "Barroth of The Wastes" class = "full"> -->
 
 
     <!-- <img src = "images/" alt ="" title = "" class = ""> -->
@@ -81,4 +158,11 @@
 
 
 </body>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+
+
+<script src="js/lightbox.js"></script>
+
+
 </html>
